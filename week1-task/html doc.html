@@ -1,0 +1,39 @@
+<!-- public/index.html -->
+ <!DOCTYPE html>
+ <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> QUOTE OF THE DAY</title>
+        <style>
+            body{
+                font-family:Arial, Helvetica, sans-serif;
+                text-align: center;
+                margin: 20px;
+            }
+            .quote{
+                font-size: 24px;
+                margin: 20px;
+            }
+            .author{
+                font-size: 20px;
+                color: brown;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>QUOTE OF THE DAY</h1>
+        <div id="quote" class="quote"></div>
+        <div id="author" class="author"></div>
+        <button onclick="getQuote()">Get Random Quote</button>
+        <hr>
+        <h2>Search Quotes By Author</h2>
+        <input type="text" id="authorInput" placeholder="Enter author name:">
+        <button onclick="searchQuotes()">Search</button>
+        <div id="searchResult"></div>
+
+        <script>
+            
+        </script>
+    </body>
+ </html>
