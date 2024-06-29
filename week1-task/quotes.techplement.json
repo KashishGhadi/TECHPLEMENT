@@ -1,0 +1,1088 @@
+[{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e111"
+  }
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e112"
+  },
+  "const": "const",
+  "{": "url",
+  "MongoClient": "=",
+  "}": "'mongodb://localhost:27017';"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e113"
+  },
+  "const": "const",
+  "{": "dbName",
+  "MongoClient": "=",
+  "}": "'quoteOfTheDay';"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e114"
+  }
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e115"
+  },
+  "const": "const",
+  "{": "quotes",
+  "MongoClient": "=",
+  "}": "["
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e116"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "Life is what happens when you're busy making other plans.\", author: \"John Lennon",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e117"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "The purpose of our lives is to be happy.\", author: \"Dalai Lama",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e118"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "Get busy living or get busy dying.\", author: \"Stephen King",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e119"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "You only live once, but if you do it right, once is enough.\", author: \"Mae West",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e11a"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "Many of life's failures are people who did not realize how close they were to success when they gave up.\", author: \"Thomas A. Edison",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e11b"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "If you want to live a happy life, tie it to a goal, not to people or things.\", author: \"Albert Einstein",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e11c"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "Never let the fear of striking out keep you from playing the game.\", author: \"Babe Ruth",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e11d"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "Money and success don’t change people; they merely amplify what is already there.\", author: \"Will Smith",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e11e"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "Your time is limited, don’t waste it living someone else’s life.\", author: \"Steve Jobs",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e11f"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "Not how long, but how well you have lived is the main thing.\", author: \"Seneca",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e120"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "If life were predictable it would cease to be life, and be without flavor.\", author: \"Eleanor Roosevelt",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e121"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "The whole secret of a successful life is to find out what is one’s destiny to do, and then do it.\", author: \"Henry Ford",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e122"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "In order to write about life first you must live it.\", author: \"Ernest Hemingway",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e123"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "The big lesson in life, baby, is never be scared of anyone or anything.\", author: \"Frank Sinatra",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e124"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "Curiosity about life in all of its aspects, I think, is still the secret of great creative people.\", author: \"Leo Burnett",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e125"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "Life is not a problem to be solved, but a reality to be experienced.\", author: \"Soren Kierkegaard",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e126"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "The unexamined life is not worth living.\", author: \"Socrates",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e127"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "Turn your wounds into wisdom.\", author: \"Oprah Winfrey",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e128"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "The way I see it, if you want the rainbow, you gotta put up with the rain.\", author: \"Dolly Parton",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e129"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "Do all the good you can, for all the people you can, in all the ways you can, as long as you can.\", author: \"Hillary Clinton",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e12a"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "Don’t settle for what life gives you; make life better and build something.\", author: \"Ashton Kutcher",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e12b"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "Everybody wants to be famous, but nobody wants to do the work. I live by that. You grind hard so you can play hard. At the end of the day, you put all the work in, and eventually it’ll pay off. It could be in a year, it could be in 30 years. Eventually, your hard work will pay off.\", author: \"Kevin Hart",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e12c"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "Everything negative – pressure, challenges – is all an opportunity for me to rise.\", author: \"Kobe Bryant",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e12d"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "I like criticism. It makes you strong.\", author: \"LeBron James",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e12e"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "You never really learn much from hearing yourself speak.\", author: \"George Clooney",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e12f"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "Life imposes things on you that you can’t control, but you still have the choice of how you’re going to live through this.\", author: \"Celine Dion",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e130"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "Live for each second without hesitation.\", author: \"Elton John",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e131"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "Life is never easy. There is work to be done and obligations to be met – obligations to truth, to justice, and to liberty.\", author: \"John F. Kennedy",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e132"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "Live as if you were to die tomorrow. Learn as if you were to live forever.\", author: \"Mahatma Gandhi",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e133"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "The best way to predict your future is to create it.\", author: \"Abraham Lincoln",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e134"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "Do not go where the path may lead, go instead where there is no path and leave a trail.\", author: \"Ralph Waldo Emerson",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e135"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "You will face many defeats in life, but never let yourself be defeated.\", author: \"Maya Angelou",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e136"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "In the end, it’s not the years in your life that count. It’s the life in your years.\", author: \"Abraham Lincoln",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e137"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "Life is either a daring adventure or nothing at all.\", author: \"Helen Keller",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e138"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "You have within you right now, everything you need to deal with whatever the world can throw at you.\", author: \"Brian Tracy",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e139"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "Believe you can and you’re halfway there.\", author: \"Theodore Roosevelt",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e13a"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "May you live all the days of your life.\", author: \"Jonathan Swift",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e13b"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "Success is not final, failure is not fatal: It is the courage to continue that counts.\", author: \"Winston Churchill",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e13c"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "You define your own life. Don’t let other people write your script.\", author: \"Oprah Winfrey",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e13d"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "You are never too old to set another goal or to dream a new dream.\", author: \"C.S. Lewis",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e13e"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "At the end of the day, we can endure much more than we think we can.\", author: \"Frida Kahlo",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e13f"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "Whatever you are, be a good one.\", author: \"Abraham Lincoln",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e140"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "Everything you’ve ever wanted is on the other side of fear.\", author: \"George Addair",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e141"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "Life is really simple, but we insist on making it complicated.\", author: \"Confucius",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e142"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "When you arise in the morning think of what a privilege it is to be alive, to think, to enjoy, to love…\", author: \"Marcus Aurelius",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e143"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "Keep smiling, because life is a beautiful thing and there’s so much to smile about.\", author: \"Marilyn Monroe",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e144"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "The greatest glory in living lies not in never falling, but in rising every time we fall.\", author: \"Nelson Mandela",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e145"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "The purpose of life is not to be happy. It is to be useful, to be honorable, to be compassionate, to have it make some difference that you have lived and lived well.\", author: \"Ralph Waldo Emerson",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e146"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "The best revenge is massive success.\", author: \"Frank Sinatra",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e147"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "The best time to plant a tree was 20 years ago. The second best time is now.\", author: \"Chinese Proverb",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e148"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "An unexamined life is not worth living.\", author: \"Socrates",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e149"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "To live is the rarest thing in the world. Most people exist, that is all.\", author: \"Oscar Wilde",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e14a"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "Good friends, good books, and a sleepy conscience: this is the ideal life.\", author: \"Mark Twain",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e14b"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "Life is what happens when you're busy making other plans.\", author: \"John Lennon",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e14c"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.\", author: \"Ralph Waldo Emerson",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e14d"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "Do not take life too seriously. You will never get out of it alive.\", author: \"Elbert Hubbard",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e14e"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "In three words I can sum up everything I've learned about life: it goes on.\", author: \"Robert Frost",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e14f"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "Live in the sunshine, swim the sea, drink the wild air.\", author: \"Ralph Waldo Emerson",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e150"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "The only impossible journey is the one you never begin.\", author: \"Tony Robbins",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e151"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "Life is ten percent what happens to us and ninety percent how we respond to it.\", author: \"Charles Swindoll",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e152"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "Keep your face always toward the sunshine—and shadows will fall behind you.\", author: \"Walt Whitman",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e153"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "Life itself is the most wonderful fairy tale.\", author: \"Hans Christian Andersen",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e154"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment.\", author: \"Buddha",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e155"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "Love the life you live. Live the life you love.\", author: \"Bob Marley",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e156"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "The journey of a thousand miles begins with one step.\", author: \"Lao Tzu",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e157"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "The only limit to our realization of tomorrow is our doubts of today.\", author: \"Franklin D. Roosevelt",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e158"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "Life is short, and it is up to you to make it sweet.\", author: \"Sarah Louise Delany",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e159"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "Do what you can, with what you have, where you are.\", author: \"Theodore Roosevelt",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e15a"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "Change your thoughts and you change your world.\", author: \"Norman Vincent Peale",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e15b"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "The best way to get started is to quit talking and begin doing.\", author: \"Walt Disney",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e15c"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "Your time is limited, don’t waste it living someone else’s life.\", author: \"Steve Jobs",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e15d"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "Success is not how high you have climbed, but how you make a positive difference to the world.\", author: \"Roy T. Bennett",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e15e"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "Happiness is not something ready-made. It comes from your own actions.\", author: \"Dalai Lama",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e15f"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "Happiness is not by chance, but by choice.\", author: \"Jim Rohn",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e160"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "Happiness is not a goal...it's a by-product of a life well-lived.\", author: \"Eleanor Roosevelt",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e161"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "Life is a succession of lessons which must be lived to be understood.\", author: \"Ralph Waldo Emerson",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e162"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "You have within you right now, everything you need to deal with whatever the world can throw at you.\", author: \"Brian Tracy",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e163"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "Do not go where the path may lead, go instead where there is no path and leave a trail.\", author: \"Ralph Waldo Emerson",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e164"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "The purpose of our lives is to be happy.\", author: \"Dalai Lama",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e165"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "Life is what happens when you're busy making other plans.\", author: \"John Lennon",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e166"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "You only live once, but if you do it right, once is enough.\", author: \"Mae West",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e167"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "Live in the sunshine, swim the sea, drink the wild air.\", author: \"Ralph Waldo Emerson",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e168"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "Good friends, good books, and a sleepy conscience: this is the ideal life.\", author: \"Mark Twain",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e169"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "Keep smiling, because life is a beautiful thing and there’s so much to smile about.\", author: \"Marilyn Monroe",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e16a"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "Success is not final, failure is not fatal: It is the courage to continue that counts.\", author: \"Winston Churchill",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e16b"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "The best way to predict your future is to create it.\", author: \"Abraham Lincoln",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e16c"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "The best revenge is massive success.\", author: \"Frank Sinatra",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e16d"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "The greatest glory in living lies not in never falling, but in rising every time we fall.\", author: \"Nelson Mandela",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e16e"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "The best time to plant a tree was 20 years ago. The second best time is now.\", author: \"Chinese Proverb",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e16f"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "Life is really simple, but we insist on making it complicated.\", author: \"Confucius",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e170"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "The only impossible journey is the one you never begin.\", author: \"Tony Robbins",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e171"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "Believe you can and you’re halfway there.\", author: \"Theodore Roosevelt",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e172"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "May you live all the days of your life.\", author: \"Jonathan Swift",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e173"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "Success is not how high you have climbed, but how you make a positive difference to the world.\", author: \"Roy T. Bennett",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e174"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "Do not take life too seriously. You will never get out of it alive.\", author: \"Elbert Hubbard",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e175"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "In three words I can sum up everything I've learned about life: it goes on.\", author: \"Robert Frost",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e176"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "The only limit to our realization of tomorrow is our doubts of today.\", author: \"Franklin D. Roosevelt",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e177"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "The journey of a thousand miles begins with one step.\", author: \"Lao Tzu",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e178"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "The purpose of life is not to be happy. It is to be useful, to be honorable, to be compassionate, to have it make some difference that you have lived and lived well.\", author: \"Ralph Waldo Emerson",
+  "require('mongodb');": "},"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e179"
+  },
+  "MongoClient": "{",
+  "}": "text:",
+  "=": "Change your thoughts and you change your world.\", author: \"Norman Vincent Peale",
+  "require('mongodb');": "}"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e17a"
+  },
+  "const": "];"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e17b"
+  }
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e17c"
+  },
+  "const": "(async",
+  "{": "function()",
+  "MongoClient": "{"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e17d"
+  },
+  "MongoClient": "const",
+  "}": "client",
+  "=": "=",
+  "require('mongodb');": "new"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e17e"
+  }
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e17f"
+  },
+  "MongoClient": "try",
+  "}": "{"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e180"
+  },
+  "=": "await",
+  "require('mongodb');": "client.connect();"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e181"
+  },
+  "=": "console.log(\"Connected",
+  "require('mongodb');": "correctly"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e182"
+  }
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e183"
+  },
+  "=": "const",
+  "require('mongodb');": "db"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e184"
+  },
+  "=": "const",
+  "require('mongodb');": "col"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e185"
+  }
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e186"
+  },
+  "=": "//",
+  "require('mongodb');": "Insert"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e187"
+  },
+  "=": "const",
+  "require('mongodb');": "result"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e188"
+  },
+  "=": "console.log(`${result.insertedCount}",
+  "require('mongodb');": "quotes"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e189"
+  },
+  "MongoClient": "}",
+  "}": "catch",
+  "=": "(err)",
+  "require('mongodb');": "{"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e18a"
+  },
+  "=": "console.log(err.stack);"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e18b"
+  },
+  "MongoClient": "}"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e18c"
+  }
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e18d"
+  },
+  "MongoClient": "finally",
+  "}": "{"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e18e"
+  },
+  "=": "await",
+  "require('mongodb');": "client.close();"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e18f"
+  },
+  "MongoClient": "}"
+},
+{
+  "_id": {
+    "$oid": "66801d56b15b55e52b02e190"
+  },
+  "const": "})();"
+}]
