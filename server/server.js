@@ -1,6 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
+const quotesRoute = require('./routes/quotes');
 
 const app = express();
 const PORT = process.env.PORT || 3000;  // Define the PORT variable
@@ -9,19 +10,16 @@ const PORT = process.env.PORT || 3000;  // Define the PORT variable
 app.use(cors());
 app.use(express.json());
 
+// Routes
+app.use('/api/quotes', quotesRoute);
+
 // MongoDB connection
 mongoose.connect('mongodb://localhost:27017/quotesDB', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
-
-const db = mongoose.connection;
-db.on('error', (error) => console.error(error));
-db.once('open', () => console.log('Connected to MongoDB'));
-
-// Routes
-const quotesRouter = require('./routes/quotes');
-app.use('/quotes', quotesRouter);
+.then(() => console.log('Connected to MongoDB'))
+.catch(err => console.error('Could not connect to MongoDB...', err));
 
 // Start the server
 app.listen(PORT, () => {
