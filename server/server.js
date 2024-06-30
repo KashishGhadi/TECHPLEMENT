@@ -1,14 +1,22 @@
-// server/server.js
 const express = require('express');
 const mongoose = require('mongoose');
-const path = require('path');
+const bodyParser = require('body-parser');
 
 const app = express();
-const PORT = 3000;
+const port = 3000;
 
-mongoose.connect('mongodb://localhost:27017/quotesDB', { useNewUrlParser: true, useUnifiedTopology: true })
-    .then(() => console.log('Connected to MongoDB'))
-    .catch(err => console.error(err));
+mongoose.connect('mongodb://localhost:27017/quotesDB', {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+});
+
+const db = mongoose.connection;
+db.on('error', console.error.bind(console, 'connection error:'));
+db.once('open', () => {
+    console.log('Connected to MongoDB');
+});
+
+app.use(bodyParser.json());
 
 const quoteSchema = new mongoose.Schema({
     text: String,
@@ -17,25 +25,24 @@ const quoteSchema = new mongoose.Schema({
 
 const Quote = mongoose.model('Quote', quoteSchema);
 
-app.use(express.static(path.join(__dirname, '../public')));
-
-app.get('/api/random-quote', async (req, res) => {
+app.get('/random', async (req, res) => {
     try {
         const count = await Quote.countDocuments();
-        const random = Math.floor(Math.random() * count);
-        const quote = await Quote.findOne().skip(random);
-        res.json(quote);
-    } catch (err) {
-        res.status(500).send(err);
+        const randomIndex = Math.floor(Math.random() * count);
+        const randomQuote = await Quote.findOne().skip(randomIndex);
+        res.json(randomQuote);
+    } catch (error) {
+        res.status(500).send(error);
     }
 });
 
-app.get('/api/quotes/:author', async (req, res) => {
+app.get('/quote', async (req, res) => {
+    const author = req.query.author;
     try {
-        const quotes = await Quote.find({ author: req.params.author });
+        const quotes = await Quote.find({ author: new RegExp(author, 'i') });
         res.json(quotes);
-    } catch (err) {
-        res.status(500).send(err);
+    } catch (error) {
+        res.status(500).send(error);
     }
 });
 
