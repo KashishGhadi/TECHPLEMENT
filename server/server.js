@@ -1,51 +1,29 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const bodyParser = require('body-parser');
+const cors = require('cors');
 
 const app = express();
-const port = 3000;
+const PORT = process.env.PORT || 3000;  // Define the PORT variable
 
+// Middleware
+app.use(cors());
+app.use(express.json());
+
+// MongoDB connection
 mongoose.connect('mongodb://localhost:27017/quotesDB', {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
 });
 
 const db = mongoose.connection;
-db.on('error', console.error.bind(console, 'connection error:'));
-db.once('open', () => {
-    console.log('Connected to MongoDB');
-});
+db.on('error', (error) => console.error(error));
+db.once('open', () => console.log('Connected to MongoDB'));
 
-app.use(bodyParser.json());
+// Routes
+const quotesRouter = require('./routes/quotes');
+app.use('/quotes', quotesRouter);
 
-const quoteSchema = new mongoose.Schema({
-    text: String,
-    author: String
-});
-
-const Quote = mongoose.model('Quote', quoteSchema);
-
-app.get('/random', async (req, res) => {
-    try {
-        const count = await Quote.countDocuments();
-        const randomIndex = Math.floor(Math.random() * count);
-        const randomQuote = await Quote.findOne().skip(randomIndex);
-        res.json(randomQuote);
-    } catch (error) {
-        res.status(500).send(error);
-    }
-});
-
-app.get('/quote', async (req, res) => {
-    const author = req.query.author;
-    try {
-        const quotes = await Quote.find({ author: new RegExp(author, 'i') });
-        res.json(quotes);
-    } catch (error) {
-        res.status(500).send(error);
-    }
-});
-
+// Start the server
 app.listen(PORT, () => {
-    console.log(`Server is running on http://localhost:$3000`);
+  console.log(`Server is running on http://localhost:$3000`);
 });
