@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 app.use(express.static('public'));
 
 const url = 'mongodb://localhost:27017';
-const dbName = 'quoteOfTheDay';
+const dbName = 'quotes';
 
 let db;
 // connecting to mongodb
