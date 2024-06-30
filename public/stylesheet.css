@@ -1,0 +1,16 @@
+/* public/styles.css */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+.quote {
+    font-size: 22px;
+    margin: 20px 0;
+}
+
+.author {
+    font-size: 22px;
+    color: brown;
+}
