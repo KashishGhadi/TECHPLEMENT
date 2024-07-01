@@ -23,5 +23,5 @@ mongoose.connect('mongodb://localhost:27017/quotesDB', {
 
 // Start the server
 app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:$3000`);
+  console.log(`Server is running on http://localhost:3000`);
 });
