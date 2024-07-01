@@ -27,5 +27,5 @@ app.use('/api/quotes', quoteRoutes);
 
 // Start the server
 app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:3008`);
+  console.log(`Server is running on http://localhost:3002`);
 });
